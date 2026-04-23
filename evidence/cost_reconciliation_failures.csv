@@ -1,0 +1,4 @@
+patient_id,treatment_cost_source,treatment_cost_target
+1002,450.0,430.0
+1004,90.0,
+1005,700.0,-700.0

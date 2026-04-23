@@ -1,0 +1,8 @@
+test_case_id,test_case_name,objective,execution_steps,expected_result,actual_result
+TC01,Record count validation,Compare source and target row counts,Run count query on both tables,Counts should match,Fail
+TC02,Duplicate check,Detect duplicate patient records in target,Group by patient_id and filter count > 1,No duplicates,Fail
+TC03,Null mandatory fields,Check nulls in mandatory columns,Filter for nulls in required fields,No nulls,Fail
+TC04,Business rule validation,Treatment cost must be greater than 0,Filter treatment_cost <= 0,No invalid cost values,Fail
+TC05,Cost reconciliation,Compare source and target treatment cost,Join on patient_id and compare cost,No mismatches,Fail
+TC06,Missing records,Identify source records missing in target,Left join source to target,No missing records,Fail
+TC07,Field-level comparison,Compare key descriptive fields,Join and compare name/type/hospital,No mismatches,Fail

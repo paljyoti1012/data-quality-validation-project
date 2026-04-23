@@ -1,0 +1,9 @@
+check_name,issue_count,status
+Source Record Count,8,Info
+Target Record Count,8,Info
+Duplicate Records,1,Fail
+Null Mandatory Fields,2,Fail
+Invalid Treatment Cost,2,Fail
+Cost Reconciliation Failures,3,Fail
+Missing Records In Target,1,Fail
+Field-Level Mismatches,1,Fail

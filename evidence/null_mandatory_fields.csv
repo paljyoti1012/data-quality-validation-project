@@ -1,0 +1,3 @@
+patient_id,patient_name,treatment_date,treatment_type,treatment_cost,hospital_code
+1004,Sophie Green,2024-01-14,Dermatology,,NHS003
+1008,Noah Thomas,2024-01-18,Oncology,950.0,

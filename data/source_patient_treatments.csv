@@ -1,0 +1,9 @@
+patient_id,patient_name,treatment_date,treatment_type,treatment_cost,hospital_code
+1001,John Smith,2024-01-10,Physiotherapy,120.0,NHS001
+1002,Emma Brown,2024-01-12,Cardiology,450.0,NHS001
+1003,Rahul Patel,2024-01-13,Orthopaedics,300.0,NHS002
+1004,Sophie Green,2024-01-14,Dermatology,90.0,NHS003
+1005,Aisha Khan,2024-01-15,Neurology,700.0,NHS002
+1006,Liam Wilson,2024-01-16,Paediatrics,200.0,NHS004
+1007,Olivia Taylor,2024-01-17,Radiology,150.0,NHS004
+1008,Noah Thomas,2024-01-18,Oncology,950.0,NHS005

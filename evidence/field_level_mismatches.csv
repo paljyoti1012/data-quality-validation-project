@@ -1,0 +1,2 @@
+patient_id,patient_name_source,treatment_date_source,treatment_type_source,treatment_cost_source,hospital_code_source,patient_name_target,treatment_date_target,treatment_type_target,treatment_cost_target,hospital_code_target
+1008,Noah Thomas,2024-01-18,Oncology,950.0,NHS005,Noah Thomas,2024-01-18,Oncology,950.0,

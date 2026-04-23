@@ -1,0 +1,7 @@
+defect_id,issue_type,description,severity,status
+DQ001,Count Mismatch,One source record is missing in target for patient_id 1007,High,Open
+DQ002,Duplicate Record,Duplicate target record found for patient_id 1006,High,Open
+DQ003,Null Value,treatment_cost is null for patient_id 1004,High,Open
+DQ004,Business Rule Failure,Negative treatment_cost found for patient_id 1005,Critical,Open
+DQ005,Reconciliation Failure,Source and target treatment_cost mismatch for patient_id 1002,Medium,Open
+DQ006,Null Value,hospital_code is null for patient_id 1008,Medium,Open
